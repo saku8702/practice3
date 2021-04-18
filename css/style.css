@@ -200,6 +200,10 @@ body {
   text-align: right;
 }
 
+.section-title-concept {
+  text-transform: uppercase;
+}
+
 /* ワークス */
 .works {
   background-image: url(../img/works-bgi@2x.jpg);
