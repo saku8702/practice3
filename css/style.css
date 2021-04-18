@@ -266,14 +266,19 @@ body {
   border-radius: 50px;
   color: #171717;
   font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 .button:hover {
   opacity: 0.8;
+  
 }
 
 .button-yellow {
   background-color: #f7d43f;
+  box-shadow: 0 0 6px 0 #1B1310;
 }
 
 /* サービス */
