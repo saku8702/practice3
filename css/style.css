@@ -144,7 +144,7 @@ body {
   margin-left: 30px;
 }
 
-.Consept-sentence {
+.consept-sentence {
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
@@ -155,30 +155,30 @@ body {
   display: none;
 }
 
-.Consept-item {
+.consept-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 58px;
 }
 
-.Consept-item-text {
+.consept-item-text {
   width: 45%;
   font-size: 1.6rem;
   font-weight: bold;
   line-height: 1.875;
 }
 
-.Consept-item-img {
+.consept-item-img {
   width: 45%;
 }
 
-.Consept-item-img img {
+.consept-item-img img {
   width: 100%;
   vertical-align: bottom;
 }
 
-.Consept-phrase {
+.consept-phrase {
   font-size: 9rem;
   color: #171717;
   padding-top: 70px;
@@ -187,7 +187,7 @@ body {
   font-weight: bold;
 }
 
-.Consept-phrase-white {
+.consept-phrase-white {
   font-size: 9rem;
   color: #ffffff;
   padding-top: 70px;
@@ -201,7 +201,7 @@ body {
 }
 
 /* ワークス */
-.Works {
+.works {
   background-image: url(../img/works-bgi@2x.jpg);
   background-size: cover;
   min-height: 100vh;
@@ -226,20 +226,20 @@ body {
   margin-left: 30px;
 }
 
-.Works-card {
+.works-card {
   display: flex;
   margin-top: 79.6px;
   margin-bottom: 80px;
 }
 
-.Works-card-item {
+.works-card-item {
   width: 32%;
   margin-right: 2%;
   display: inline-flex;
   flex-direction: column;
 }
 
-.Works-card-item:last-child {
+.works-card-item:last-child {
   margin-right: 0;
 }
 
@@ -282,13 +282,13 @@ body {
 }
 
 /* サービス */
-.Service-card {
+.service-card {
   margin-top: 80px;
   display: flex;
   justify-content: space-between;
 }
 
-.Service-card-list:first-child {
+.service-card-list:first-child {
   background-image: url(../img/service-img01@2x.jpg);
   height: 320px;
   width: 33.333%;
@@ -298,7 +298,7 @@ body {
   background-size: cover;
 }
 
-.Service-card-list:nth-child(2) {
+.service-card-list:nth-child(2) {
   background-image: url(../img/service-img02@2x.jpg);
   height: 320px;
   width: 33.333%;
@@ -308,7 +308,7 @@ body {
   background-size: cover;
 }
 
-.Service-card-list:last-child {
+.service-card-list:last-child {
   background-image: url(../img/sevice-img03@2x.jpg);
   height: 320px;
   width: 33.333%;
@@ -318,19 +318,19 @@ body {
   background-size: cover;
 }
 
-.Service-card-list a {
+.service-card-list a {
   color: #ffffff;
   font-size: 4rem;
   font-weight: bold;
   font-style: italic;
 }
 
-.Service-card-list:hover {
+.service-card-list:hover {
   filter: brightness(70%);
 }
 
 /* コンタクト */
-.Contact {
+.contact {
   background-image: url(../img/contact-bgi@2x.jpg);
   background-size: cover;
 }
@@ -348,7 +348,7 @@ body {
   margin-left: 30px;
 }
 
-.Contact-text {
+.contact-text {
   font-size: 2rem;
   font-weight: bold;
   color: #ffffff;
@@ -584,7 +584,7 @@ textarea {
     height: 5px;
   }
 
-  .Consept-sentence {
+  .consept-sentence {
     margin: 0 15px;
     font-size: 2rem;
     margin-top: 52px;
@@ -595,27 +595,27 @@ textarea {
     display: block;
   }
 
-  .Consept-item {
+  .consept-item {
     display: block;
     margin-top: 31px;
   }
 
-  .Consept-item-text {
+  .consept-item-text {
     padding: 0 15px;
     width: 100%;
   }
 
-  .Consept-item-img {
+  .consept-item-img {
     margin-top: 30px;
     padding: 0 15px;
     min-width: 100%;
   }
 
-  .Consept-phrase {
+  .consept-phrase {
     font-size: 4rem;
     padding: 60px 15px 40px;
   }
-  .Consept-phrase-white {
+  .consept-phrase-white {
     font-size: 4rem;
     padding: 60px 15px 40px;
   }
@@ -624,7 +624,7 @@ textarea {
     padding-right: 32px;
   }
 
-  .Consept-phrase.right {
+  .consept-phrase.right {
     padding-top: 40px;
   }
 
@@ -638,23 +638,23 @@ textarea {
     height: 5px;
   }
 
-  .Works-card {
+  .works-card {
     display: block;
     margin-top: 51px;
     margin-bottom: 50px;
   }
 
-  .Works-card-item {
+  .works-card-item {
     width: 100%;
     padding: 30px 28px;
   }
 
   /* サービス */
-  .Service-card {
+  .service-card {
     display: block;
   }
 
-  .Service-card-list:first-child {
+  .service-card-list:first-child {
     height: 250px;
     width: 100%;
     display: flex;
@@ -662,7 +662,7 @@ textarea {
     align-items: center;
   }
 
-  .Service-card-list:nth-child(2) {
+  .service-card-list:nth-child(2) {
     margin-top: 30px;
     height: 250px;
     width: 100%;
@@ -671,7 +671,7 @@ textarea {
     align-items: center;
   }
 
-  .Service-card-list:last-child {
+  .service-card-list:last-child {
     margin-top: 30px;
     height: 250px;
     width: 100%;
@@ -680,12 +680,12 @@ textarea {
     align-items: center;
   }
 
-  .Service-card-list a {
+  .service-card-list a {
     font-size: 2rem;
   }
 
   /* コンタクト */
-  .Contact-text {
+  .contact-text {
     margin-bottom: 50px;
   }
 }
