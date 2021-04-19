@@ -109,16 +109,18 @@
 
     const jsHam = document.getElementById('jsham');
     const jsNav = document.getElementById('jsnav');
+    const jsBody = document.getElementById('body');
+
 
     jsham.addEventListener('click', () => {
       jsnav.classList.toggle('active'), jsham.classList.toggle('active');
 
       if (jsham.classList.contains('active')) {
-        document.getElementById('body').style.height = '100%';
-        document.getElementById('body').style.overflow = 'hidden';
+        jsBody.style.height = '100%';
+        jsBody.style.overflow = 'hidden';
       } else {
-        document.getElementById('body').style.height = 'auto';
-        document.getElementById('body').style.overflow = 'scroll';
+        jsBody.style.height = 'auto';
+        jsBody.style.overflow = 'scroll';
       }
     });
 
@@ -126,11 +128,11 @@
       jsnav.classList.remove('active'), jsham.classList.remove('active');
 
       if (jsham.classList.contains('active')) {
-        document.getElementById('body').style.height = '100%';
-        document.getElementById('body').style.overflow = 'hidden';
+        jsBody.style.height = '100%';
+        jsBody.style.overflow = 'hidden';
       } else {
-        document.getElementById('body').style.height = 'auto';
-        document.getElementById('body').style.overflow = 'scroll';
+        jsBody.style.height = 'auto';
+        jsBody.style.overflow = 'scroll';
       }
     });
 
