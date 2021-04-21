@@ -191,9 +191,6 @@ body {
   vertical-align: bottom;
 }
 
-
-
-
 .right {
   text-align: right;
 }
@@ -365,17 +362,17 @@ body {
   background-size: cover;
   padding-bottom: 280px;
   position: relative;
-  }
-  
+}
+
 .contact:after {
-    content: "Contact us";
-    font-size: 9rem;
-    color: #ffffff;
-    opacity: 0.1;
-    font-weight: bold;
-    position: absolute;
-    top: 70%;
-    left: 12%;
+  content: "Contact us";
+  font-size: 9rem;
+  color: #ffffff;
+  opacity: 0.1;
+  font-weight: bold;
+  position: absolute;
+  top: 70%;
+  left: 12%;
 }
 
 .border-white {
@@ -425,6 +422,18 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+
+.fv-contact:after {
+  content: "Contact us";
+  font-size: 9rem;
+  color: #ffffff;
+  opacity: 0.1;
+  font-weight: bold;
+  position: absolute;
+  top: 62.4%;
+  left: 3.33%;
 }
 
 .contact-title {
@@ -437,7 +446,6 @@ body {
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
 }
-
 
 .form {
   max-width: 700px;
@@ -651,10 +659,6 @@ textarea {
     right: 4%;
   }
 
-
-
-
-
   /* ワークス */
   .works {
     padding-bottom: 160px;
@@ -733,29 +737,28 @@ textarea {
   /* コンタクト */
   .contact {
     padding-bottom: 160px;
-    }
+  }
 
   .contact:after {
-      font-size: 4rem;
-      top: 80%;
-      left: 4%;
+    font-size: 4rem;
+    top: 80%;
+    left: 4%;
   }
   .contact-text {
     margin-bottom: 50px;
   }
-  
 }
 
 /* コンタクトページ SP版 */
 @media only screen and (max-width: 768px) {
-  .contact-title {
-    font-size: 3rem;
+  .fv-contact:after {
+    font-size: 4rem;
+    top: 71.1%;
+    left: 4%;
   }
 
-  .contact-phrase-white {
-    font-size: 4rem;
-    font-weight: bold;
-    margin: 0 15px;
+  .contact-title {
+    font-size: 3rem;
   }
 
   .header-inner-contact {
