@@ -222,6 +222,7 @@ body {
   background-image: url(../img/works-bgi@2x.jpg);
   background-size: cover;
   min-height: 100vh;
+  padding-bottom: 265px;
 }
 
 .section-title.inner {
@@ -247,6 +248,18 @@ body {
   display: flex;
   margin-top: 79.6px;
   margin-bottom: 80px;
+  position: relative;
+}
+
+.works-card:after {
+  content: "Our Works";
+  font-size: 9rem;
+  color: #ffffff;
+  opacity: 0.1;
+  font-weight: bold;
+  position: absolute;
+  top: 154%;
+  left: 0;
 }
 
 .works-card-item {
@@ -636,14 +649,6 @@ textarea {
   }
 
 
-  .consept-phrase {
-    font-size: 4rem;
-    padding: 60px 15px 40px;
-  }
-  /* .consept-phrase-white {
-    font-size: 4rem;
-    padding: 60px 15px 40px;
-  } */
 
   .right {
     padding-right: 32px;
@@ -654,6 +659,10 @@ textarea {
   }
 
   /* ワークス */
+  .works {
+    padding-bottom: 160px;
+  }
+
   .border-white {
     margin-right: 15px;
     /* 線の幅 */
@@ -668,6 +677,14 @@ textarea {
     margin-top: 51px;
     margin-bottom: 50px;
   }
+
+  
+  .works-card:after {
+    font-size: 4rem;
+    top: 110%;
+    left: 4%;
+  }
+  
 
   .works-card-item {
     width: 100%;
