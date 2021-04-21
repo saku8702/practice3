@@ -159,7 +159,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 58px;
+  margin: 58px auto 230px;
+  position: relative;
 }
 
 .consept-item-text {
@@ -171,6 +172,18 @@ body {
 
 .consept-item-img {
   width: 45%;
+}
+
+/* 追加 */
+.consept-item:after {
+  content: "Our Concept";
+  font-size: 9rem;
+  color: #171717;
+  opacity: 0.1;
+  font-weight: bold;
+  position: absolute;
+  top: 120%;
+  right: 0;
 }
 
 .consept-item-img img {
@@ -601,6 +614,7 @@ textarea {
   .consept-item {
     display: block;
     margin-top: 31px;
+    margin-bottom: 120px;
   }
 
   .consept-item-text {
@@ -614,14 +628,22 @@ textarea {
     min-width: 100%;
   }
 
+  /* 追加 */
+  .consept-item:after {
+    font-size: 4rem;
+    top: 106%;
+    right: 4%;
+  }
+
+
   .consept-phrase {
     font-size: 4rem;
     padding: 60px 15px 40px;
   }
-  .consept-phrase-white {
+  /* .consept-phrase-white {
     font-size: 4rem;
     padding: 60px 15px 40px;
-  }
+  } */
 
   .right {
     padding-right: 32px;
