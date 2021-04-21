@@ -303,15 +303,30 @@ body {
 
 .button:hover {
   opacity: 0.8;
-  
 }
 
 .button-yellow {
   background-color: #f7d43f;
-  box-shadow: 0 0 6px 0 #1B1310;
+  box-shadow: 0 0 6px 0 #1b1310;
 }
 
 /* サービス */
+.service {
+  position: relative;
+  margin-bottom: 248px;
+}
+
+.service:after {
+  content: "Our Service";
+  font-size: 9rem;
+  color: #171717;
+  opacity: 0.1;
+  font-weight: bold;
+  position: absolute;
+  top: 110%;
+  right: 12%;
+}
+
 .service-card {
   margin-top: 80px;
   display: flex;
@@ -648,8 +663,6 @@ textarea {
     right: 4%;
   }
 
-
-
   .right {
     padding-right: 32px;
   }
@@ -678,13 +691,11 @@ textarea {
     margin-bottom: 50px;
   }
 
-  
   .works-card:after {
     font-size: 4rem;
     top: 110%;
     left: 4%;
   }
-  
 
   .works-card-item {
     width: 100%;
@@ -692,6 +703,15 @@ textarea {
   }
 
   /* サービス */
+  .service {
+    margin-bottom: 154px;
+  }
+  .service:after {
+    font-size: 4rem;
+    top: 105%;
+    right: 4%;
+  }
+
   .service-card {
     display: block;
   }
