@@ -191,23 +191,8 @@ body {
   vertical-align: bottom;
 }
 
-.consept-phrase {
-  font-size: 9rem;
-  color: #171717;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  opacity: 0.1;
-  font-weight: bold;
-}
 
-.consept-phrase-white {
-  font-size: 9rem;
-  color: #ffffff;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  opacity: 0.1;
-  font-weight: bold;
-}
+
 
 .right {
   text-align: right;
@@ -378,6 +363,19 @@ body {
 .contact {
   background-image: url(../img/contact-bgi@2x.jpg);
   background-size: cover;
+  padding-bottom: 280px;
+  position: relative;
+  }
+  
+.contact:after {
+    content: "Contact us";
+    font-size: 9rem;
+    color: #ffffff;
+    opacity: 0.1;
+    font-weight: bold;
+    position: absolute;
+    top: 70%;
+    left: 12%;
 }
 
 .border-white {
@@ -424,8 +422,6 @@ body {
   height: 453px;
   margin-bottom: 100px;
   position: relative;
-
-  /* ここ見直すこと */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -442,14 +438,6 @@ body {
   transform: translateY(-50%) translateX(-50%);
 }
 
-.contact-phrase-white {
-  font-size: 9rem;
-  color: #ffffff;
-  padding-top: 207px;
-  padding-bottom: 40px;
-  line-height: 1.666;
-  opacity: 0.1;
-}
 
 .form {
   max-width: 700px;
@@ -663,13 +651,9 @@ textarea {
     right: 4%;
   }
 
-  .right {
-    padding-right: 32px;
-  }
 
-  .consept-phrase.right {
-    padding-top: 40px;
-  }
+
+
 
   /* ワークス */
   .works {
@@ -747,9 +731,19 @@ textarea {
   }
 
   /* コンタクト */
+  .contact {
+    padding-bottom: 160px;
+    }
+
+  .contact:after {
+      font-size: 4rem;
+      top: 80%;
+      left: 4%;
+  }
   .contact-text {
     margin-bottom: 50px;
   }
+  
 }
 
 /* コンタクトページ SP版 */
