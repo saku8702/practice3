@@ -451,11 +451,11 @@ body {
   margin-bottom: 80px;
 }
 
-.checkbox {
+.inquiry {
   font-size: 1.6rem;
 }
 
-.checkbox label {
+.inquiry label {
   margin-right: 20px;
 }
 
@@ -771,11 +771,11 @@ textarea {
     margin: 0 15px;
   }
 
-  .checkbox p {
+  .inquiry p {
     margin-bottom: 8px;
   }
 
-  .checkbox label {
+  .inquiry label {
     display: block;
     line-height: 1.3125;
     margin-top: 5px;
