@@ -114,6 +114,11 @@ body {
   font-weight: bold;
 }
 
+.sp-only {
+  display: none;
+}
+
+
 /* コンセプト */
 
 .innermost {
@@ -596,14 +601,14 @@ textarea {
 
   .fv-title {
     margin: 0 15px;
-    font-size: 3.7rem;
+    font-size: 9.8vw;
     text-align: center;
     padding-top: 202px;
   }
 
   .fv-text {
     margin: 0 15px;
-    font-size: 3rem;
+    font-size: 8vw;
     text-align: center;
     margin-top: 53px;
   }
@@ -630,10 +635,10 @@ textarea {
   }
 
   .sp-only {
-    display: block;
+    display: inline;
   }
 
-  br {
+  .pc-only {
     display: none;
   }
 
