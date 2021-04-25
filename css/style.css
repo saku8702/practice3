@@ -373,19 +373,6 @@ body {
   left: 12%;
 }
 
-.border-white {
-  /* 線の幅 */
-  width: 200px;
-
-  /* 線の太さ */
-  height: 1px;
-
-  /* 線の色 */
-  background: #ffffff;
-
-  margin-left: 30px;
-}
-
 .contact-text {
   font-size: 2rem;
   font-weight: bold;
