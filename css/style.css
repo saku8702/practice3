@@ -273,6 +273,7 @@ body {
   outline: none;
   border: none;
   cursor: pointer;
+  display: inline-block;
 }
 
 .button:hover {
