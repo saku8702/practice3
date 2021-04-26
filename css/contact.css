@@ -93,7 +93,7 @@ body {
   width: 100%;
 }
 
-.fv-contact {
+.contact {
   background-image: url(../img/contact-page-bgi@2x.jpg);
   height: 453px;
   margin-bottom: 100px;
@@ -103,7 +103,7 @@ body {
   position: relative;
 }
 
-.fv-contact:after {
+.contact:after {
   content: "Contact us";
   font-size: 9rem;
   color: #fff;
@@ -207,7 +207,7 @@ textarea {
     margin: 0 15px;
   }
 
-  .fv-contact:after {
+  .contact:after {
     font-size: 4rem;
     top: 71.1%;
     left: 4%;
