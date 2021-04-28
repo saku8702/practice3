@@ -89,7 +89,7 @@ body {
 
 .fv {
   background-image: url(../img/fv-bgi_01@2x.jpg);
-  height: 750px;
+  padding-bottom: 173px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -500,7 +500,7 @@ body {
   }
 
   .fv {
-    height: 599px;
+    padding-bottom: 152px;
   }
 
   .fv-title {
