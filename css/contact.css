@@ -140,13 +140,13 @@ body {
   color: #141414;
 }
 
-.form-part label {
+.contact-part label {
   margin-top: 22px;
   display: block;
   font-size: 1.6rem;
 }
 
-.form-part input {
+.contact-part input {
   font-size: 1.6rem;
   border: 1px #000 solid;
   width: 100%;
@@ -160,7 +160,7 @@ textarea {
   margin-bottom: 80px;
 }
 
-.form-send {
+.contact-part-submit {
   text-align: center;
 }
 
