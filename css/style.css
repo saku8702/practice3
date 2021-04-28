@@ -264,7 +264,7 @@ body {
   text-align: center;
 }
 
-.button {
+.link-button {
   font-size: 1.6rem;
   padding: 20px 70px;
   border-radius: 50px;
@@ -280,11 +280,11 @@ body {
   width: 235px;
 }
 
-.button:hover {
+.link-button:hover {
   opacity: 0.8;
 }
 
-.button-yellow {
+.link-button-yellow {
   background-color: #f7d43f;
   box-shadow: 0 0 6px 0 #1b1310;
 }
