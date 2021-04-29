@@ -1,29 +1,29 @@
 'use strict';
 
-const jsHam = document.getElementById('jsham');
-const jsNav = document.getElementById('jsnav');
-const jsBody = document.getElementById('body');
+const menu = document.getElementById('js-menu'); 
+const nav = document.getElementById('js-nav');
+const body = document.getElementById('js-body');
 
-jsham.addEventListener('click', () => {
-  jsnav.classList.toggle('active'), jsham.classList.toggle('active');
+menu.addEventListener('click', () => {
+  nav.classList.toggle('active'), menu.classList.toggle('active');
 
-  if (jsham.classList.contains('active')) {
-    jsBody.style.height = '100%';
-    jsBody.style.overflow = 'hidden';
+  if (menu.classList.contains('active')) {
+    body.style.height = '100%';
+    body.style.overflow = 'hidden';
   } else {
-    jsBody.style.height = 'auto';
-    jsBody.style.overflow = 'scroll';
+    body.style.height = 'auto';
+    body.style.overflow = 'scroll';
   }
 });
 
-jsnav.addEventListener('click', () => {
-  jsnav.classList.remove('active'), jsham.classList.remove('active');
+nav.addEventListener('click', () => {
+  nav.classList.remove('active'), menu.classList.remove('active');
 
-  if (jsham.classList.contains('active')) {
-    jsBody.style.height = '100%';
-    jsBody.style.overflow = 'hidden';
+  if (menu.classList.contains('active')) {
+    body.style.height = '100%';
+    body.style.overflow = 'hidden';
   } else {
-    jsBody.style.height = 'auto';
-    jsBody.style.overflow = 'scroll';
+    body.style.height = 'auto';
+    body.style.overflow = 'scroll';
   }
 });
