@@ -6,15 +6,15 @@ const body = document.getElementById('js-body');
 
 menu.addEventListener('click', () => {
   nav.classList.toggle('active'), menu.classList.toggle('active');
-  fixBackground();
+  addStyleForBody();
 });
 
 nav.addEventListener('click', () => {
   nav.classList.remove('active'), menu.classList.remove('active');
-  fixBackground();
+  addStyleForBody();
 });
 
-function fixBackground() {
+function addStyleForBody() {
   if (menu.classList.contains('active')) {
     body.style.height = '100%';
     body.style.overflow = 'hidden';
