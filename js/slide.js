@@ -1,12 +1,16 @@
 'use strict';
 
-  var i = 0;
-  
-  var bg = ["img/fv-bgi_01@2x.jpg", "img/fv-bgi_02@2x.jpg", "img/fv-bgi_03@2x.jpg"];
-  
-  function slide_time() {
-  i = (i === bg.length - 1) ? 0 : i + 1;
-  document.getElementById('fv').style.backgroundImage = "url(" + bg[i] + ")";
+  const slides = {
+    images: ["img/fv-bgi_01@2x.jpg", "img/fv-bgi_02@2x.jpg", "img/fv-bgi_03@2x.jpg"],
+    target: document.getElementById('fv')
   }
-
-  setInterval(slide_time, 3000);
+  
+  function changeSlide() {
+    let currentNumber = 0
+    return () => {
+      currentNumber = (currentNumber === slides.images.length - 1) ? 0 : currentNumber + 1;
+      slides.target.style.backgroundImage = "url(" + slides.images[currentNumber] + ")";
+    }
+  }
+  
+  setInterval(changeSlide(), 3000);
