@@ -187,7 +187,7 @@ body {
   font-weight: bold;
   position: absolute;
   top: 120%;
-  right: 0;
+  right: -10.5%;
 }
 
 .consept-item-img img {
@@ -232,7 +232,7 @@ body {
   font-weight: bold;
   position: absolute;
   top: 154%;
-  left: 0;
+  left: -10%;
 }
 
 .works-card-item {
@@ -303,7 +303,7 @@ body {
   font-weight: bold;
   position: absolute;
   top: 110%;
-  right: 12%;
+  right: 8.3%;
 }
 
 .service-card {
@@ -369,7 +369,7 @@ body {
   font-weight: bold;
   position: absolute;
   top: 70%;
-  left: 12%;
+  left: 8.3%;
 }
 
 .contact-text {
