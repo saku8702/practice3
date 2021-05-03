@@ -136,7 +136,7 @@ body {
 }
 
 .border {
-  height: 1px;
+  height: 5px;
 }
 
 .background-color-black {
@@ -564,9 +564,6 @@ body {
   .border {
     /* 線の幅 */
     width: 90px;
-
-    /* 線の太さ */
-    height: 5px;
   }
 
   .consept-sentence {
