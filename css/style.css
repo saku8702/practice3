@@ -613,6 +613,10 @@ body {
     padding-bottom: 160px;
   }
 
+  .section-title.inner{
+    padding-right: 15px;
+  }
+
   .border-white {
     margin-right: 15px;
     /* 線の幅 */
@@ -628,9 +632,13 @@ body {
     margin-bottom: 50px;
   }
 
+  .works-card-item {
+    margin-right: 0;
+  }
+
   .works-card:after {
     font-size: 4rem;
-    top: 110%;
+    top: 113%;
     left: 4%;
   }
 
@@ -696,5 +704,6 @@ body {
   .contact-text {
     margin-bottom: 50px;
   }
+
 }
 
