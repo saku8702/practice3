@@ -1,0 +1,375 @@
+/* 共通 */
+
+html {
+  font-size: 62.5%;
+  letter-spacing: 0.05em;
+  color: #171717;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Noto Serif", "Noto Serif JP", serif;
+  word-break: break-all;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* コンタクトページ */
+/* ヘッダー */
+/* ヘッダー */
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ヘッダー色変更 */
+.header-inner {
+  background-color: #282f35;
+  transition: all 0.5s;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.hidden {
+  background: none;
+  transition: all 0.5s ease;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.header-title h1 {
+  font-size: 2.6rem;
+  line-height: 1.375;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list-item {
+  font-size: 1.6rem;
+  line-height: 1.375;
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.nav-list-item:hover {
+  opacity: 0.8;
+}
+
+.nav-list-item a {
+  color: #fff;
+}
+
+.nav-list-item:last-child {
+  margin-right: 0px;
+}
+
+.header-inner-contact {
+  width: 100%;
+}
+
+.header-wrapper {
+  margin-bottom: 100px;
+}
+
+.contact {
+  background-image: url(../img/contact-page-bgi@2x.jpg);
+  padding-bottom: 378px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.contact:after {
+  content: "Contact us";
+  font-size: 9rem;
+  color: #fff;
+  opacity: 0.1;
+  font-weight: bold;
+  position: absolute;
+  top: 62.4%;
+  left: 3.33%;
+}
+
+.contact-title {
+  font-size: 6rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.form {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.inquiry {
+  font-size: 1.6rem;
+}
+
+.inquiry label {
+  margin-right: 20px;
+  color: #141414;
+}
+
+.contact-part label {
+  margin-top: 22px;
+  display: block;
+  font-size: 1.6rem;
+}
+
+.contact-part input {
+  font-size: 1.6rem;
+  border: 1px #000 solid;
+  width: 100%;
+}
+
+textarea {
+  font-size: 1.6rem;
+  border: 1px #000 solid;
+  width: 100%;
+  height: 171px;
+  margin-bottom: 80px;
+}
+
+.contact-part-submit {
+  text-align: center;
+}
+
+.link-button {
+  font-size: 1.6rem;
+  padding: 20px 70px;
+  border-radius: 50px;
+  color: #171717;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 235px;
+}
+
+.link-button:hover {
+  opacity: 0.8;
+}
+
+.link-button-yellow {
+  background-color: #f7d43f;
+  box-shadow: 0 0 6px 0 #1b1310;
+}
+
+
+/* フッター */
+.footer {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 2.14;
+  color:#282F35;
+}
+
+/* ハンバーガーメニュー用 */
+.visuallyhidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%); 
+  margin: -1px;
+}
+
+
+/* コンタクトページ SP版 */
+@media only screen and (max-width: 768px) {
+
+  .header-title h1 {
+    margin: 0 15px;
+  }
+
+  .contact:after {
+    font-size: 4rem;
+    top: 71.1%;
+    left: 4%;
+  }
+
+  .contact-title {
+    font-size: 3rem;
+  }
+
+  .header-inner-contact {
+    margin: 0 15px;
+  }
+
+  .form {
+    margin: 0 15px;
+  }
+
+  .inquiry p {
+    margin-bottom: 8px;
+  }
+
+  .inquiry label {
+    display: block;
+    line-height: 1.3125;
+    margin-top: 5px;
+  }
+}
+
+/* ハンバーガーメニュー */
+
+@media only screen and (max-width: 768px) {
+  .header-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 100vw;
+    background-color: #282f35;
+    height: 100vh;
+    z-index: 9998;
+    transition: 0.6s;
+  }
+
+  .header-nav.active {
+    left: 0;
+  }
+
+  .header-nav ul {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .nav-list-item {
+    width: 208px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .nav-list-item a {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: block;
+    padding: 20px 0;
+  }
+
+
+.menu {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+.menu-hamburger {
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  width: 48px;
+  height: 48px;
+  z-index: 99999;
+  outline: none;
+  -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.menu-hamburger-line {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  -webkit-transition: inherit;
+          transition: inherit;
+}
+.menu-hamburger-line:before,
+.menu-hamburger-line:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  content: '';
+  -webkit-transition: inherit;
+          transition: inherit;
+}
+.menu-hamburger-line:before {
+  top: -15px;
+}
+.menu-hamburger-line:after {
+  top: 15px;
+}
+
+
+.menu-hamburger.active .menu-hamburger-line {
+  background-color: transparent;
+}
+
+.menu-hamburger.active .menu-hamburger-line:before,
+.menu-hamburger.active .menu-hamburger-line:after {
+  top: 0;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background-color: #fff;
+}
+.menu-hamburger.active .menu-hamburger-line:before {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+}
